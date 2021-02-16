@@ -10,4 +10,6 @@ Because sometimes `bash history` isn't good enough.
 
 Drop this script into your `$PATH` and invoke via:
 
-`wtd 
+`wtd.sh {{running_container_name}} -v`
+
+Where `-v` creates a slightly more verbose output, and may expose secrets if passed through `ENV`.
