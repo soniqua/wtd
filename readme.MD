@@ -1,6 +1,13 @@
 # WTD
 
-What The Docker? is a tool to:
+What The Docker? is a tool to generate a `docker run` command from an already-running container.
 
-1. Generate a run command from an already-running container
-1. WIP
+## Why?
+
+Because sometimes `bash history` isn't good enough.
+
+## Use
+
+Drop this script into your `$PATH` and invoke via:
+
+`wtd 
